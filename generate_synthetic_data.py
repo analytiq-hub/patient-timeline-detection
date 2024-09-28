@@ -1,12 +1,29 @@
+#!/usr/bin/env python3
+
 import pandas as pd
 from langchain_ai21 import AI21LLM
 from langchain_core.prompts import PromptTemplate
+import OpenSSL
+import os
 
 # Set your AI21 API key
 import langchain_ai21 as ai21
-ai21.api_key = 'fdUeX7hXHjsB3J2YOxXIEgN6SnUnnydO'  # Replace with your actual API key
+# Read the API key from the environment variable
+ai21.api_key = os.getenv("AI21LABS_API_KEY")
+print(f"AI21Labs key: {ai21.api_key}")
 
-df = pd.read_csv('/Users/Manas Goel/Desktop/agi/inputevents.csv')
+# Get the __file__ directory
+TOP = os.path.dirname(__file__)
+INPUT_EVENTS = f"{TOP}/datasets/mimic/icu/inputevents.csv"
+
+# Ensure the file is present
+if not os.path.exists(INPUT_EVENTS):
+    print(f"Input events file not found: {INPUT_EVENTS}")
+    exit(1)
+
+print(f"Reading input events from {INPUT_EVENTS}")
+
+df = pd.read_csv(INPUT_EVENTS)
 
 model = AI21LLM(model="j2-ultra", api_key='fdUeX7hXHjsB3J2YOxXIEgN6SnUnnydO')
 
