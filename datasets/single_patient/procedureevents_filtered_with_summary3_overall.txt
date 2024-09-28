@@ -1,0 +1,18 @@
+**Clinical Note:**
+
+The patient, with ID 10005817, was admitted on 07/02/2022 at 14:45. Upon admission, the patient presented with a history of hypertension and diabetes mellitus. Initial vital signs were notable for elevated blood pressure of 150/95 mmHg and a heart rate of 88 bpm. The patient's blood glucose level was 180 mg/dL.
+
+Physical examination revealed mild peripheral edema and decreased sensation in the lower extremities. The patient reported intermittent claudication and occasional dizziness. Cardiovascular and respiratory examinations were unremarkable.
+
+Laboratory results showed elevated HbA1c at 8.2%, indicating poor glycemic control. Renal function tests were within normal limits, but lipid profile revealed elevated LDL cholesterol at 140 mg/dL. Electrolytes and liver function tests were normal.
+
+The patient was started on a regimen of metformin and lisinopril, with close monitoring of blood glucose and blood pressure. Dietary counseling and diabetes education were provided. Follow-up appointments were scheduled for ongoing management and adjustment of medications as necessary.
+
+On 07/03/2022 at 10:15, the patient underwent a Doppler ultrasound of the lower extremities, which confirmed the presence of peripheral artery disease. A cardiology consult was requested to evaluate for potential revascularization procedures.
+
+The patient was discharged on 07/05/2022 at 12:00 with instructions to continue the prescribed medications, monitor blood glucose levels, and follow a low-sodium, heart-healthy diet. A follow-up visit with the primary care physician was scheduled for 07/12/2022.
+
+**Procedures:**
+
+* Doppler ultrasound of lower extremities
+* Laboratory tests including HbA1c, lipid profile, renal function tests
