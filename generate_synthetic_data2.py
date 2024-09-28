@@ -5,13 +5,48 @@ from langchain_ai21 import AI21LLM
 from langchain_core.prompts import PromptTemplate
 import OpenSSL
 import os
-
+import requests
+import json
 # Set your AI21 API key
 import langchain_ai21 as ai21
 # Read the API key from the environment variable
 ai21.api_key = os.getenv("AI21LABS_API_KEY")
 ai21_api_key = os.getenv("AI21LABS_API_KEY")
 print(f"AI21Labs key: {ai21_api_key}")
+
+def ai21_chat(message, system) -> str:
+    url = "https://api.ai21.com/studio/v1/j2-ultra/chat"
+
+    payload = {
+        "numResults": 1,
+        "temperature": 0.7,
+        "messages": [
+            {
+                "text": message,
+                "role": "user"
+            }
+        ],
+        "system": system
+    }
+    headers = {
+        "accept": "application/json",
+        "content-type": "application/json",
+        "Authorization": f"Bearer {ai21_api_key}"
+    }
+
+    response = requests.post(url, json=payload, headers=headers)
+
+    json_str = response.text
+    # Convert the json string to a dict
+    json_output = json.loads(json_str)
+    return json_output["outputs"][0]["text"]
+
+resp = ai21_chat(
+    "I'm crafting a market analysis tool for fintech leaders. How should I initiate the process?",
+    "You are an AI assistant for business research. Your responses should be informative and concise."
+    )
+print(resp)
+exit(0)
 
 # Get the __file__ directory
 TOP = os.path.dirname(__file__)
