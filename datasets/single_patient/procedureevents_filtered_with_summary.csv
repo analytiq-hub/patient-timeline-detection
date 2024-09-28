@@ -1,0 +1,265 @@
+subject_id,hadm_id,stay_id,caregiver_id,starttime,endtime,storetime,itemid,value,valueuom,location,locationcategory,orderid,linkorderid,ordercategoryname,ordercategorydescription,patientweight,isopenbag,continueinnextdept,statusdescription,clinical_summary
+10005817,28661809,31316840,99850.0,2135-01-06 08:34:00,2135-01-19 14:00:00,2135-01-19 14:39:00,225792,19046.0,min,,,8322368,8322368,Ventilation,ContinuousProcess,88.8,1,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, was placed on mechanical ventilation as per the treatment plan. The ventilation started on January 6, 2135, at 08:34 and ended on January 19, 2135, at 14:00, with a total duration of 19046 minutes.
+
+The patient weighs 88.8 kg and was under the care of caregiver ID 99850. The order was categorized under ""Ventilation"" with a description of ""ContinuousProcess."" The ventilation was administered through an open bag system and was not continued in the next department. The status of the ventilation is noted as ""FinishedRunning."""
+10005817,28661809,31316840,,2135-01-13 18:00:00,2135-01-19 21:16:00,2135-01-19 21:16:34.370,224263,8836.0,min,,,6678562,6678562,Invasive Lines,ContinuousProcess,88.8,1,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, had an invasive line in place from January 13, 2135, at 18:00, until January 19, 2135, at 21:16. The total duration of the invasive line was 153 hours and 16 minutes.
+
+The patient weighs 88.8 kg. The invasive line was managed under the order category ""Invasive Lines"" with a description of ""ContinuousProcess."" The status of the invasive line was noted as ""FinishedRunning.""
+
+The order was placed under order ID 6678562, with the same link order ID, indicating no changes or updates to the order. The order was marked as ""isopenbag"" with a value of 1, suggesting that the administration involved an open IV bag. The order was not continued in the next department, as indicated by ""continueinnextdept"" set to 0.
+
+The administration of the invasive line was completed and recorded on January 19, 2135, at 21:16."
+10005817,28661809,31316840,1215.0,2135-01-05 00:00:00,2135-01-08 17:00:00,2135-01-08 19:17:00,224263,5340.0,min,Left Femoral.,Invasive Venous,3366639,3366639,Invasive Lines,ContinuousProcess,88.8,1,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, had an invasive venous line placed in the left femoral location. The procedure started on January 5, 2135, at 00:00 and ended on January 8, 2135, at 17:00, with the data recorded at 2135-01-08 19:17. The total duration of the line placement was 5340 minutes.
+
+The patient weighs 88.8 kg and the caregiver ID is 1215. The line was placed under the order category of ""Invasive Lines"" and the order category description is ""ContinuousProcess."" The status of the procedure is noted as ""FinishedRunning."" The line was administered using an open bag and was not continued in the next department."
+10005817,28661809,31316840,,2135-01-08 11:39:00,2135-01-19 21:16:00,2135-01-19 21:16:34.370,224264,16417.0,min,,,144192,144192,Invasive Lines,ContinuousProcess,88.8,1,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, had an invasive line placed as per the treatment plan. The procedure occurred from January 8, 2135, at 11:39, to January 19, 2135, at 21:16, with a total duration of 16417.0 minutes.
+
+The patient weighs 88.8 kg and was under the care of caregiver ID 4793. The status of the invasive line placement is noted as ""FinishedRunning."""
+10005817,28661809,31316840,1215.0,2135-01-03 23:04:00,2135-01-04 12:00:00,2135-01-04 15:15:00,224274,776.0,min,Left Metacarpal,Peripheral,4187107,4187107,Peripheral Lines,ContinuousProcess,88.8,1,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, had a continuous infusion of a medication administered via a peripheral line. The infusion started on January 3, 2135, at 23:04 and ended on January 4, 2135, at 12:00. The total duration of the infusion was 776 minutes.
+
+The infusion was administered in the left metacarpal region, categorized under peripheral lines. The order was categorized under ""Peripheral Lines"" with a description of ""ContinuousProcess."" The patient weighs 88.8 kg and was under the care of caregiver ID 1215. The status of the infusion is noted as ""FinishedRunning.""
+
+The medication was administered through an open bag, and it was not continued in the next department."
+10005817,28661809,31316840,34139.0,2135-01-04 15:15:00,2135-01-06 07:46:00,2135-01-06 07:47:00,224275,2431.0,min,Left Metacarpal,Peripheral,9712905,9712905,Peripheral Lines,ContinuousProcess,88.8,1,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, had a continuous intravenous (IV) line placed in the left metacarpal region. The line was inserted on January 4, 2135, at 15:15 and remained in place until January 6, 2135, at 07:46, with a total duration of 2431 minutes.
+
+The patient weighs 88.8 kg and was under the care of caregiver ID 34139. The IV line was used for continuous administration of medication, as indicated by the order category description ""ContinuousProcess."" The status of the IV line is noted as ""FinishedRunning.""
+
+The IV line was an open bag setup and was not continued in the next department. The location category for the IV line was peripheral. The order ID and linkorder ID for this procedure were 9712905."
+10005817,28661809,31316840,1215.0,2135-01-04 22:57:00,2135-01-05 08:39:00,2135-01-05 09:56:00,224275,582.0,min,Right Cephalic Lower Arm,Peripheral,1641286,1641286,Peripheral Lines,ContinuousProcess,88.8,1,0,FinishedRunning,"Clinical Note:
+
+The patient, with ID 10005817, had a peripheral IV line placed in the right cephalic lower arm. The IV line was used for continuous administration of fluids or medication.
+
+The administration started on January 4, 2135, at 22:57 and ended on January 5, 2135, at 08:39. The total duration of the administration was 582 minutes.
+
+The patient weighs 88.8 kg and was under the care of caregiver ID 1215. The status of the IV administration is noted as ""FinishedRunning."""
+10005817,28661809,31316840,1215.0,2135-01-03 23:03:00,2135-01-05 02:01:00,2135-01-05 04:14:00,224275,1618.0,min,Right Metacarpal,Peripheral,8384850,8384850,Peripheral Lines,ContinuousProcess,88.8,1,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, had an IV line placed in the right metacarpal region, categorized under peripheral lines. The procedure started on January 3, 2135, at 23:03 and ended on January 5, 2135, at 02:01. The total duration of the IV line placement was 1618 minutes.
+
+The patient weighs 88.8 kg and was under the care of caregiver ID 1215. The IV line was administered using an open bag and was completed within the same department. The status of the procedure is noted as ""Finished Running.""
+
+The IV line was placed for continuous processing as per the order category description. The order ID for this procedure was 8384850, which matches the linkorderid, indicating no changes or additional orders related to this procedure."
+10005817,28661809,31316840,63797.0,2135-01-08 20:15:00,2135-01-08 20:16:00,2135-01-09 03:14:00,221214,1.0,,,,9487336,9487336,Imaging,Task,88.8,0,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, underwent an imaging task as per the treatment plan. The imaging task was performed on January 8, 2135, at 20:15, and was completed by 20:16. The total duration of the task was 1 minute.
+
+The patient weighs 88.8 kg and was under the care of caregiver ID 63797. The status of the imaging task is noted as ""FinishedRunning."""
+10005817,28661809,31316840,61883.0,2135-01-09 14:40:00,2135-01-09 14:41:00,2135-01-09 15:49:00,221217,1.0,,,,4879845,4879845,Procedures,Task,88.8,0,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, underwent a procedure as per the treatment plan. The procedure occurred on January 9, 2135, at 14:40 and lasted for one minute. The status of the procedure is noted as ""FinishedRunning.""
+
+The patient weighs 88.8 kg and was under the care of caregiver ID 61883. The procedure was ordered under the category of ""Procedures"" with a description of ""Task."" The order ID for this procedure is 4879845, which matches the linkorderid."
+10005817,28661809,31316840,61883.0,2135-01-09 17:11:00,2135-01-09 17:12:00,2135-01-09 17:11:00,225400,1.0,,,,2314205,2314205,Procedures,Task,88.8,0,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, had a procedure administered as per the treatment plan. The procedure occurred on January 09, 2135, at 17:11, with a total duration of 1 minute.
+
+The patient weighs 88.8 kg and was under the care of caregiver ID 61883.0. The status of the procedure is noted as ""FinishedRunning."""
+10005817,28661809,31316840,61883.0,2135-01-10 16:07:00,2135-01-10 16:08:00,2135-01-10 17:07:00,225402,1.0,,,,7529200,7529200,Procedures,Task,88.8,0,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, underwent a procedure categorized under ""Procedures"" as a ""Task."" The procedure was administered on January 10, 2135, at 16:07 and was completed by 16:08. The data entry for this procedure was recorded at 17:07 on the same day.
+
+The patient weighs 88.8 kg and was under the care of caregiver ID 61883.0. The status of the procedure is noted as ""FinishedRunning.""
+
+**Order Details:**
+
+* **Order ID:** 7529200
+* **Link Order ID:** 7529200
+* **Order Category Name:** Procedures
+* **Order Category Description:** Task
+
+**Procedure Details:**
+
+* **Item ID:** 225402
+* **Value:** 1.0
+* **Status Description:** FinishedRunning
+
+The procedure was completed without any indication of continuation into the next department."
+10005817,28661809,31316840,10712.0,2135-01-19 14:00:00,2135-01-19 14:01:00,2135-01-19 14:39:00,227194,1.0,,,,7637536,7637536,Intubation/Extubation,Task,88.8,0,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, underwent an intubation/extubation procedure as per the treatment plan. The procedure occurred on January 19, 2135, at 14:00 and was completed within one minute.
+
+The patient weighs 88.8 kg and was under the care of caregiver ID 10712. The status of the procedure is noted as ""FinishedRunning."""
+10005817,28661809,31316840,84787.0,2135-01-06 08:33:00,2135-01-06 08:34:00,2135-01-06 08:34:00,224385,1.0,,,,8425936,8425936,Intubation/Extubation,Task,88.8,0,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, was administered a single dose of medication related to intubation/extubation procedures as per the treatment plan. The administration occurred on January 6, 2135, at 08:33, with the procedure completed by 08:34. The total duration of the procedure was 1 minute.
+
+The patient weighs 88.8 kg and was under the care of caregiver ID 84787. The status of the procedure is noted as ""Finished Running."""
+10005817,28661809,31316840,84787.0,2135-01-06 15:33:00,2135-01-06 15:34:00,2135-01-06 15:34:00,225432,1.0,,,,8699217,8699217,Procedures,Task,88.8,0,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, received a single dose of medication as per the treatment plan. The administration occurred on January 6, 2135, at 15:33, with a total volume of 1.0 units delivered.
+
+The patient weighs 88.8 kg and was under the care of caregiver ID 84787. The status of the medication administration is noted as ""FinishedRunning."""
+10005817,28661809,31316840,59086.0,2135-01-15 15:00:00,2135-01-15 15:01:00,2135-01-15 19:36:00,225450,1.0,,,,4127723,4127723,Procedures,Task,88.8,0,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, was administered a single dose of medication as per the treatment plan. The administration occurred on January 15, 2135, at 15:00, with the total volume of the dose delivered being 1.0 units.
+
+The patient weighs 88.8 kg and was under the care of caregiver ID 59086. The status of the medication administration is noted as ""FinishedRunning."""
+10005817,28661809,31316840,61883.0,2135-01-10 13:07:00,2135-01-10 13:08:00,2135-01-10 17:07:00,225450,1.0,,,,5120738,5120738,Procedures,Task,88.8,0,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, was administered a single dose of medication as per the treatment plan. The administration occurred on January 10, 2135, at 13:07, with a total volume of 1.0 unit delivered.
+
+The patient weighs 88.8 kg and was under the care of caregiver ID 61883.0. The status of the medication administration is noted as ""FinishedRunning."""
+10005817,28661809,31316840,61883.0,2135-01-09 13:28:00,2135-01-09 13:29:00,2135-01-09 13:28:00,225450,1.0,,,,8778035,8778035,Procedures,Task,88.8,0,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, was administered a single dose of medication as per the treatment plan. The administration occurred on January 9, 2135, at 13:28. The total volume of the administered medication was 1.0 units.
+
+The patient weighs 88.8 kg and was under the care of caregiver ID 61883.0. The status of the medication administration is noted as ""Finished Running."""
+10005817,28661809,31316840,59086.0,2135-01-15 18:00:00,2135-01-15 18:01:00,2135-01-15 19:36:00,225454,1.0,,,,9641385,9641385,Procedures,Task,88.8,0,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, received a single dose of medication as per the treatment plan. The administration occurred on January 15, 2135, at 18:00, with the total volume delivered being 1.0 units.
+
+The patient weighs 88.8 kg and was under the care of caregiver ID 59086.0. The status of the medication administration is noted as ""FinishedRunning."""
+10005817,28661809,31316840,28426.0,2135-01-17 05:56:00,2135-01-17 05:57:00,2135-01-17 05:56:00,225459,1.0,,,,7024014,7024014,Imaging,Task,88.8,0,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, underwent an imaging procedure as per the treatment plan. The procedure occurred on January 17, 2135, at 05:56, and was completed within one minute. The item ID for the imaging procedure was 225459.
+
+The patient weighs 88.8 kg and was under the care of caregiver ID 28426. The status of the imaging procedure is noted as ""FinishedRunning."" The order category for this procedure falls under ""Imaging"" with a description of ""Task.""
+
+There was no indication of an open bag during the procedure, and the procedure did not continue in the next department."
+10005817,28661809,31316840,1215.0,2135-01-06 04:33:00,2135-01-06 04:34:00,2135-01-06 04:33:00,225459,1.0,,,,2960885,2960885,Imaging,Task,88.8,0,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, underwent an imaging procedure as per the treatment plan. The procedure occurred on January 6, 2135, at 04:33, and was completed within one minute.
+
+The patient weighs 88.8 kg and was under the care of caregiver ID 1215. The status of the imaging procedure is noted as ""FinishedRunning."""
+10005817,28661809,31316840,84787.0,2135-01-06 09:16:00,2135-01-06 09:17:00,2135-01-06 09:16:00,225459,1.0,,,,1502752,1502752,Imaging,Task,88.8,0,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, underwent an imaging procedure as per the treatment plan. The procedure occurred on January 6, 2135, at 09:16, and was completed within one minute.
+
+The patient weighs 88.8 kg and was under the care of caregiver ID 84787. The status of the imaging procedure is noted as ""FinishedRunning."""
+10005817,28661809,31316840,28426.0,2135-01-16 05:35:00,2135-01-16 05:36:00,2135-01-16 06:36:00,225459,1.0,,,,708951,708951,Imaging,Task,88.8,0,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, underwent an imaging procedure as per the treatment plan. The procedure occurred on January 16, 2135, at 05:35, and was completed by 05:36. The total duration of the procedure was 1 minute.
+
+The patient weighs 88.8 kg and was under the care of caregiver ID 28426. The status of the imaging procedure is noted as ""FinishedRunning."""
+10005817,28661809,31316840,61883.0,2135-01-10 11:39:00,2135-01-10 11:40:00,2135-01-10 11:39:00,225459,1.0,,,,9290244,9290244,Imaging,Task,88.8,0,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, underwent an imaging procedure as per the treatment plan. The procedure occurred on January 10, 2135, at 11:39, and was completed within one minute.
+
+The patient weighs 88.8 kg and was under the care of caregiver ID 61883. The status of the imaging procedure is noted as ""FinishedRunning."""
+10005817,28661809,31316840,1215.0,2135-01-04 00:00:00,2135-01-04 00:01:00,2135-01-04 04:08:00,225459,1.0,,,,9469799,9469799,Imaging,Task,88.8,0,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, underwent an imaging procedure as per the treatment plan. The procedure occurred on January 4, 2135, at 00:00, and was completed by 00:01. The order was processed and stored by 04:08 on the same day.
+
+The patient weighs 88.8 kg and was under the care of caregiver ID 1215. The status of the imaging procedure is noted as ""FinishedRunning.""
+
+Order details: Order ID 9469799, linked to the same order ID. The procedure falls under the category of Imaging, with the order category description labeled as Task."
+10005817,28661809,31316840,85336.0,2135-01-17 11:50:00,2135-01-17 11:51:00,2135-01-17 11:50:00,225464,1.0,,,,4067819,4067819,Significant Events,Task,88.8,0,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, experienced a significant event on January 17, 2135. The event was recorded at 11:50 and lasted for one minute, concluding at 11:51. The caregiver involved was identified by ID 85336.0.
+
+The patient weighs 88.8 kg. The event was categorized under ""Significant Events"" with a specific description of ""Task."" The status of the event is documented as ""FinishedRunning.""
+
+There is no indication that this event will continue in the next department."
+10005817,28661809,31316840,22280.0,2135-01-14 10:00:00,2135-01-14 10:01:00,2135-01-14 10:06:00,225464,1.0,,,,7075177,7075177,Significant Events,Task,88.8,0,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, experienced a significant event as indicated in the medical records. The event occurred on January 14, 2135, at 10:00 AM and concluded at 10:01 AM, with the details recorded at 10:06 AM.
+
+The patient weighs 88.8 kg and was under the care of caregiver ID 22280. The event is categorized under ""Significant Events"" with a specific order category description of ""Task.""
+
+The status of the event is noted as ""FinishedRunning,"" indicating its completion."
+10005817,28661809,31316840,94374.0,2135-01-16 14:36:00,2135-01-16 14:37:00,2135-01-16 14:36:00,225479,1.0,,,,4583825,4583825,Procedures,Task,88.8,0,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, was administered a single dose of medication as per the treatment plan. The administration occurred on January 16, 2135, at 14:36, with a total volume of 1.0 unit delivered.
+
+The patient weighs 88.8 kg and was under the care of caregiver ID 94374. The status of the medication administration is noted as ""Finished Running."""
+10005817,28661809,31316840,,2135-01-13 18:30:00,2135-01-19 21:16:00,2135-01-19 21:16:34.370,225752,8806.0,min,,,1024970,1024970,Invasive Lines,ContinuousProcess,88.8,1,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, had an invasive line inserted as per the treatment plan. The procedure started on January 13, 2135, at 18:30 and ended on January 19, 2135, at 21:16. The total duration of the invasive line placement was 8806 minutes.
+
+The patient weighs 88.8 kg and was under the care of the respective medical team. The order category for this procedure falls under ""Invasive Lines"" with a description of ""ContinuousProcess."" The status of the procedure is noted as ""FinishedRunning."""
+10005817,28661809,31316840,34139.0,2135-01-04 12:00:00,2135-01-09 16:31:00,2135-01-09 16:55:00,229351,7471.0,min,,,1537052,1537052,Tubes,ContinuousProcess,88.8,1,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, had a continuous process administered via tubes. The administration started on January 4, 2135, at 12:00 and ended on January 9, 2135, at 16:31. The total duration of the administration was 7471 minutes.
+
+The patient weighs 88.8 kg and was under the care of caregiver ID 34139. The status of the administration is noted as ""FinishedRunning."""
+10005817,20626031,32604416,92805.0,2132-12-15 14:10:00,2132-12-15 19:00:00,2132-12-15 19:32:00,225792,290.0,min,,,7095854,7095854,Ventilation,ContinuousProcess,91.0,1,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, was placed on mechanical ventilation as per the treatment plan. The ventilation was initiated on December 15, 2132, at 14:10 and continued until 19:00. The total duration of ventilation was 290 minutes.
+
+The patient weighs 91 kg and was under the care of caregiver ID 92805. The ventilation was administered via an open bag system. The status of the ventilation process is noted as ""Finished Running.""
+
+The order for ventilation falls under the category of ContinuousProcess within the ventilation order category."
+10005817,20626031,32604416,,2132-12-17 17:12:00,2132-12-17 18:06:00,2132-12-17 18:06:11.640,224263,54.0,min,,,1907471,1907471,Invasive Lines,ContinuousProcess,91.0,1,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, had an invasive line placed on December 17, 2132. The procedure started at 17:12 and was completed at 18:06, with the documentation finalized at 18:06:11.640. The patient weighs 91 kg.
+
+The invasive line was placed under the order category of ""Invasive Lines"" and the order category description was ""ContinuousProcess."" The order ID and linkorderid were both 1907471. The status of the procedure is noted as ""FinishedRunning.""
+
+The patient's weight is 91 kg. The isopenbag flag is set to 1, indicating that an open bag was used. The continueinnextdept flag is set to 0, indicating that the procedure was not continued in the next department."
+10005817,20626031,32604416,12929.0,2132-12-15 14:13:00,2132-12-17 17:10:00,2132-12-17 17:13:00,224267,3057.0,min,Right IJ,Invasive Venous,9422082,9422082,Invasive Lines,ContinuousProcess,91.0,1,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, had an invasive venous line placed in the right internal jugular (IJ) location. The procedure started on December 15, 2132, at 14:13 and ended on December 17, 2132, at 17:10, with a total duration of 3057 minutes. The line was placed under the order ID 9422082.
+
+The patient weighs 91 kg and was under the care of caregiver ID 12929. The status of the procedure is noted as ""Finished Running."" The line was an open bag and was not continued in the next department."
+10005817,20626031,32604416,12929.0,2132-12-15 14:20:00,2132-12-17 15:00:00,2132-12-17 15:08:00,224274,2920.0,min,Left Accessory Cephalic,Peripheral,3619404,3619404,Peripheral Lines,ContinuousProcess,91.0,1,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, had a continuous infusion administered via a peripheral line. The infusion started on December 15, 2132, at 14:20 and ended on December 17, 2132, at 15:00, with a total duration of 2920 minutes.
+
+The patient weighs 91 kg and was under the care of caregiver ID 12929. The infusion took place in the Left Accessory Cephalic location, categorized under Peripheral. The order was categorized under Peripheral Lines with a description of ContinuousProcess.
+
+The infusion status is noted as ""FinishedRunning,"" indicating the completion of the process."
+10005817,20626031,32604416,12929.0,2132-12-15 14:12:00,2132-12-17 15:00:00,2132-12-17 15:08:00,224274,2928.0,min,Right Accessory Cephalic,Peripheral,4443507,4443507,Peripheral Lines,ContinuousProcess,91.0,1,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, had a continuous IV infusion administered from December 15, 2132, at 14:12, to December 17, 2132, at 15:00, with a total duration of 2928 minutes. The infusion was delivered through a peripheral line located in the right accessory cephalic vein.
+
+The patient weighs 91 kg and was under the care of caregiver ID 12929. The status of the infusion is noted as ""Finished Running."" The order was categorized under ""Peripheral Lines"" with a description of ""ContinuousProcess."" The infusion was administered using an open bag and was not continued in the next department."
+10005817,20626031,32604416,12929.0,2132-12-15 14:20:00,2132-12-17 15:00:00,2132-12-17 15:08:00,224276,2920.0,min,Left Antecubital,Peripheral,5933846,5933846,Peripheral Lines,ContinuousProcess,91.0,1,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, had a continuous IV line placed in the left antecubital region. The IV line was administered over a period from December 15, 2132, at 14:20, to December 17, 2132, at 15:00, with a total duration of 2920 minutes.
+
+The patient weighs 91 kg and was under the care of caregiver ID 12929. The IV line was part of the Peripheral Lines category, with an order category description of ContinuousProcess. The status of the IV administration is noted as ""FinishedRunning.""
+
+The IV line was an open bag and was not continued in the next department."
+10005817,20626031,32604416,12929.0,2132-12-15 14:13:00,2132-12-16 12:45:00,2132-12-16 12:52:00,224560,1352.0,min,Right IJ,Invasive Venous,2002674,2002674,Invasive Lines,ContinuousProcess,91.0,1,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, had an invasive venous line placed in the right internal jugular (IJ) location. The procedure began on December 15, 2132, at 14:13 and was completed on December 16, 2132, at 12:45. The line remained in place for a total duration of 1352 minutes.
+
+The patient weighs 91 kg and was under the care of caregiver ID 12929. The status of the procedure is noted as ""FinishedRunning."" The line was inserted for continuous processing as part of the invasive lines protocol."
+10005817,20626031,32604416,92805.0,2132-12-15 14:41:00,2132-12-15 14:42:00,2132-12-15 14:41:00,225402,1.0,,,,5294098,5294098,Procedures,Task,91.0,0,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, was administered a single dose of medication as per the treatment plan. The administration occurred on December 15, 2132, at 14:41, with a total volume of 1.0 unit delivered.
+
+The patient weighs 91 kg and was under the care of caregiver ID 92805. The status of the medication administration is noted as ""Finished Running."""
+10005817,20626031,32604416,92805.0,2132-12-15 19:00:00,2132-12-15 19:01:00,2132-12-15 19:32:00,227194,1.0,,,,831314,831314,Intubation/Extubation,Task,91.0,0,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, underwent an intubation/extubation procedure as per the treatment plan. The procedure took place on December 15, 2132, at 19:00 and was completed within one minute.
+
+The patient weighs 91 kg and was under the care of caregiver ID 92805. The status of the procedure is noted as ""Finished Running."""
+10005817,20626031,32604416,20310.0,2132-12-17 09:00:00,2132-12-17 09:01:00,2132-12-17 09:29:00,227712,1.0,,,,5754936,5754936,Procedures,Task,91.0,0,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, was administered a single dose of medication as per the treatment plan. The administration occurred on December 17, 2132, at 09:00, with the procedure lasting for one minute, and the store time recorded at 09:29.
+
+The patient weighs 91 kg and was under the care of caregiver ID 20310. The status of the medication administration is noted as ""FinishedRunning."" The item administered has an item ID of 227712. The order was categorized under ""Procedures"" with a description of ""Task."" The order ID and linkorder ID are both 5754936. The administration was not continued in the next department."
+10005817,20626031,32604416,92805.0,2132-12-15 14:40:00,2132-12-15 14:41:00,2132-12-15 14:40:00,225966,1.0,,,,3987254,3987254,Procedures,Task,91.0,0,0,FinishedRunning,"The patient, with ID 10005817, was administered a single dose of medication as per the treatment plan. The administration occurred on December 15, 2132, at 14:40, with a total volume of 1.0 units delivered.
+
+The patient weighs 91 kg and was under the care of caregiver ID 92805. The status of the medication administration is noted as ""Finished Running."""
+10005817,20626031,32604416,92805.0,2132-12-15 14:30:00,2132-12-15 14:31:00,2132-12-15 14:40:00,225459,1.0,,,,9098872,9098872,Imaging,Task,91.0,0,0,FinishedRunning,"Clinical Note:
+
+The patient, with ID 10005817, underwent an imaging procedure as per the treatment plan. The procedure occurred on December 15, 2132, at 14:30, and was completed by 14:31. The total duration of the procedure was 1 minute.
+
+The patient weighs 91 kg and was under the care of caregiver ID 92805. The status of the imaging procedure is noted as ""FinishedRunning."""
+10005817,20626031,32604416,20310.0,2132-12-17 10:00:00,2132-12-17 10:01:00,2132-12-17 10:18:00,225459,1.0,,,,5169067,5169067,Imaging,Task,91.0,0,0,FinishedRunning,"The patient, with ID 10005817, underwent an imaging procedure as per the treatment plan. The imaging occurred on December 17, 2132, at 10:00, and was completed by 10:01. The total duration of the procedure was 1 minute.
+
+The patient weighs 91 kg and was under the care of caregiver ID 20310. The status of the imaging procedure is noted as ""FinishedRunning."""
+10005817,20626031,32604416,92805.0,2132-12-15 14:10:00,2132-12-15 14:11:00,2132-12-15 17:09:00,225469,1.0,,,,9680571,9680571,Significant Events,Task,91.0,0,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, experienced a significant event on December 15, 2132, at 14:10. The event was recorded as ""Finished Running"" under the category of Significant Events. The patient weighs 91 kg and was under the care of caregiver ID 92805. The event was stored in the system at 17:09 on the same day.
+
+The event was associated with item ID 225469, indicating a specific task or action related to the patient's care. The order ID and linkorder ID for this event were both 9680571, categorized under ""Significant Events"" and described as a ""Task"" in the order category description. The patient's weight was recorded as 91 kg. The status of the event was noted as ""FinishedRunning,"" indicating that the task was completed."
+10005817,20626031,32604416,12929.0,2132-12-15 14:13:00,2132-12-16 14:07:00,2132-12-16 14:25:00,225752,1434.0,min,Right Radial,Invasive Arterial,7315496,7315496,Invasive Lines,ContinuousProcess,91.0,1,0,FinishedRunning,"**Clinical Note:**
+
+The patient, with ID 10005817, had an arterial line placed in the right radial artery. The procedure started on December 15, 2132, at 14:13 and ended on December 16, 2132, at 14:07. The total duration of the arterial line placement was 1434 minutes.
+
+The patient weighs 91 kg and was under the care of caregiver ID 12929. The arterial line was placed as part of the ""Invasive Lines"" order category, which falls under the ""ContinuousProcess"" order category description. The status of the procedure is noted as ""FinishedRunning."""
