@@ -1,0 +1,28 @@
+**Clinical Note:**
+
+The patient, with ID 10005817, was admitted on 05/06/2023 at 10:30 AM. The patient presented with a history of hypertension and diabetes. On initial assessment, the patient was noted to have a blood pressure of 150/90 mmHg and a blood glucose level of 180 mg/dL. The patient was administered Metformin 500 mg orally twice daily and Lisinopril 10 mg orally once daily.
+
+On 05/07/2023 at 08:00 AM, the patient underwent a comprehensive metabolic panel. The results indicated elevated liver enzymes, with ALT at 65 U/L and AST at 58 U/L. Renal function tests showed a creatinine level of 1.2 mg/dL. The patient was closely monitored for any signs of deterioration.
+
+On 05/08/2023 at 10:00 AM, the patient received a consultation from the endocrinology team. Insulin therapy was initiated to better manage blood glucose levels. The patient was started on insulin glargine at a dose of 10 units subcutaneously at bedtime and insulin aspart on a sliding scale before meals.
+
+On 05/09/2023 at 02:00 PM, the patient was evaluated for a potential urinary tract infection (UTI). A urinalysis was performed, which revealed the presence of leukocytes and nitrites. The patient was started on Ciprofloxacin 500 mg orally twice daily.
+
+On 05/10/2023 at 09:00 AM, the patient underwent an echocardiogram to assess cardiac function. The results showed mild left ventricular hypertrophy. The cardiology team was consulted, and the patient was started on a low-dose beta-blocker, Metoprolol 25 mg orally once daily.
+
+On 05/11/2023 at 01:00 PM, the patient was discharged with instructions to follow up with their primary care physician within one week. The patient was advised to continue their current medications and monitor blood glucose levels at home.
+
+**Procedures Highlighted:**
+
+* Comprehensive metabolic panel
+* Urinalysis
+* Echocardiogram
+
+**Medications Administered:**
+
+* Metformin 500 mg orally twice daily
+* Lisinopril 10 mg orally once daily
+* Insulin glargine 10 units subcutaneously at bedtime
+* Insulin aspart on a sliding scale before meals
+* Ciprofloxacin 500 mg orally twice daily
+* Metoprolol 25 mg orally once daily
