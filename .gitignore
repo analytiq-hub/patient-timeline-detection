@@ -1,0 +1,7 @@
+# Ignore virtual environment
+tutorial-env/
+
+# Ignore other files or folders
+.env
+*.log
+node_modules/
