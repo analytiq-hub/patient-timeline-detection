@@ -41,16 +41,17 @@ def ai21_chat(message, system) -> str:
     json_output = json.loads(json_str)
     return json_output["outputs"][0]["text"]
 
-resp = ai21_chat(
-    "I'm crafting a market analysis tool for fintech leaders. How should I initiate the process?",
-    "You are an AI assistant for business research. Your responses should be informative and concise."
-    )
-print(resp)
-exit(0)
+#resp = ai21_chat(
+#    "I'm crafting a market analysis tool for fintech leaders. How should I initiate the process?",
+#    "You are an AI assistant for business research. Your responses should be informative and concise."
+#    )
+#print(resp)
+#exit(0)
 
 # Get the __file__ directory
 TOP = os.path.dirname(__file__)
 INPUT_EVENTS = f"{TOP}/datasets/mimic/icu/inputevents.csv"
+INPUT_EVENTS_WITH_SUMMARY = f"{TOP}/datasets/output/inputevents_with_summary.csv"
 
 # Ensure the file is present
 if not os.path.exists(INPUT_EVENTS):
@@ -85,9 +86,23 @@ def generate_clinical_summary(row):
     print(ai_msg)
     return ai_msg
 
+def generate_clinical_summary_ai21(row):
+    context = ""
+    for col in df.columns:
+        if pd.notna(row[col]):
+            context += f"{col}: {row[col]}\n"
+    return ai21_chat(context, "You are a helpful assistant that generates clinical notes using medical terminology. Utilize reasoning to analyze the following structured data and provide a detailed, narrative clinical note reflecting typical communication in clinical notes without suggesting solutions.")
+
 # Apply the function to the first 100 rows of the DataFrame
-df_subset = df.head(100)
-df_subset['clinical_summary'] = df_subset.apply(generate_clinical_summary, axis=1)
+df_subset = df.head(3)
+
+# For each row, generate a clinical summary
+for index, row in df_subset.iterrows():
+    print(f"Generating clinical summary for row {index}")
+    clinical_summary = generate_clinical_summary(row)
+    df_subset.at[index, 'clinical_summary'] = clinical_summary
+
+print(df_subset)
 
 # Save the updated DataFrame to a new CSV file
-df_subset.to_csv('/Users/Manas Goel/Desktop/agi/inputevents_with_summary.csv', index=False)
+df_subset.to_csv(INPUT_EVENTS_WITH_SUMMARY, index=False)
