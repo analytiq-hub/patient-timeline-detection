@@ -1,15 +1,14 @@
+#!/usr/bin/env python3
+
 import os
 import pandas as pd
-from dotenv import load_dotenv
 from ai21 import AI21Client
 from ai21.models.chat import ChatMessage, ResponseFormat
 from multiprocessing import Pool, cpu_count
-
-# Load environment variables from .env file
-load_dotenv()
+import numpy as np
 
 # Retrieve the API key from environment variable
-api_key = os.getenv('AI21_API_KEY')
+api_key = os.getenv('AI21LABS_API_KEY')
 
 # Check if the API key is set
 if not api_key:
@@ -27,7 +26,6 @@ def generate_clinical_summary(row):
     prompt = f"""You are a helpful assistant that generates clinical notes using medical terminology.
     Utilize reasoning to analyze the following structured data and provide a detailed, narrative clinical note
     reflecting typical communication in clinical notes without suggesting solutions. Use paragraph breaks to separate different aspects of the note.
-
     Data: {context}
 
     <<Sample output of Clinical Note>>:
@@ -52,10 +50,9 @@ def generate_clinical_summary(row):
     return response.choices[0].message.content
 
 # Load the CSV file into a DataFrame
-df = pd.read_csv('/inputevents.csv')
-
+df = pd.read_csv('datasets/mimic/icu/inputevents.csv')
 # Define the number of parallel processes
-num_processes = 100
+num_processes = 256
 
 # Split the DataFrame into chunks
 df_chunks = np.array_split(df, num_processes)
@@ -73,7 +70,7 @@ with Pool(num_processes) as pool:
 df_processed = pd.concat(results)
 
 # Save the updated DataFrame to a new CSV file
-output_file = '/inputevents_with_summary.csv'
+output_file = 'inputevents_with_summary.csv'
 df_processed.to_csv(output_file, index=False)
 
 print(f"Clinical summaries generated and saved to {output_file}")
